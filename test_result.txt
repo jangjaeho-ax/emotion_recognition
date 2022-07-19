@@ -1,0 +1,264 @@
+
+test my algorithm ------------------
+s1a.png
+emotion :  anger
+s1a2.png
+Landmark not found
+s1j.png
+Landmark not found
+s1n.jpg
+Landmark not found
+s1a2.png
+emotion :  anger
+s2a.png
+Landmark not found
+s2j.png
+emotion :  anger
+s2j2.png
+emotion :  neutral
+s2n.jpg
+Landmark not found
+s2n2.png
+emotion :  neutral
+s3a.png
+emotion :  neutral
+s3j.png
+emotion :  joy
+s3j2.png
+emotion :  joy
+s3j3.png
+emotion :  joy
+s3n.jpg
+Landmark not found
+s5j.png
+emotion :  joy
+s5j2.png
+emotion :  joy
+s5n.jpg
+Landmark not found
+s5n2.png
+emotion :  neutral
+s5a.png
+emotion :  neutral
+s6a.png
+emotion :  anger
+s6a2.png
+emotion :  neutral
+s6a3.png
+emotion :  anger
+s6j.png
+emotion :  joy
+s6n.jpg
+Landmark not found
+s7a.png
+Landmark not found
+s7j.png
+emotion :  joy
+s7j2.png
+emotion :  joy
+s7j3.png
+emotion :  anger
+s7n.jpg
+Landmark not found
+u1a.png
+emotion :  anger
+u1j.png
+emotion :  joy
+u1j2.png
+emotion :  joy
+u1j3.png
+emotion :  anger
+u1n.jpg
+Landmark not found
+
+u2a.png
+emotion :  anger
+u2a2.png
+emotion :  neutral
+u2j.png
+emotion :  anger
+u2j2.png
+emotion :  joy
+u2n.jpg
+Landmark not found
+
+u3a.png
+emotion :  neutral
+u3a2.png
+emotion :  anger
+u3j.png
+emotion :  joy
+u3n.jpg
+Landmark not found
+u3n2.png
+emotion :  neutral
+
+u5a.png
+emotion :  anger
+u5a2.png
+emotion :  anger
+u5j.png
+emotion :  joy
+u5n.jpg
+Landmark not found
+u5n2.jpg
+emotion :  neutral
+u6a.png
+Landmark not found
+u6j.png
+emotion :  joy
+u6j2.png
+emotion :  joy
+u6n.jpg
+Landmark not found
+u6n2.png
+emotion :  anger
+
+
+u7a.png
+emotion :  joy
+u7a2.png
+emotion :  anger
+u7j.png
+emotion :  joy
+u7n.jpg
+Landmark not found
+u7n2.png
+emotion :  neutral
+
+total time :  0.4281809329986572
+test existed algorithm ------------------
+s1a.png
+landmark not found
+s1a2.png
+landmark not found
+s1j.png
+landmark not found
+s1n.jpg
+landmark not found
+s1a3.png
+landmark not found
+s2a.png
+emotion :  anger
+s2j.png
+landmark not found
+s2j2.png
+landmark not found
+s2n.jpg
+landmark not found
+s2n2.png
+emotion :  neutral
+
+s3a.png
+emotion :  anger
+s3j.png
+emotion :  joy
+s3j2.png
+emotion :  joy
+s3j3.png
+emotion :  joy
+s3n.jpg
+landmark not found
+
+s5j.png
+emotion :  joy
+s5j2.png
+emotion :  joy
+s5n.jpg
+emotion :  neutral
+s5n2.png
+emotion :  neutral
+s5s.png
+landmark not found
+
+s6a.png
+landmark not found
+s6a2.png
+emotion :  anger
+s6a3.png
+landmark not found
+s6j.png
+landmark not found
+s6n.jpg
+emotion :  neutral
+
+s7a.png
+landmark not found
+s7j.png
+emotion :  joy
+s7j2.png
+landmark not found
+s7j3.png
+landmark not found
+s7n.jpg
+landmark not found
+
+u1a.png
+landmark not found
+u1j.png
+landmark not found
+u1j2.png
+emotion :  anger
+u1j3.png
+emotion :  anger
+u1n.jpg
+landmark not found
+
+u2a.png
+emotion :  anger
+u2a2.png
+landmark not found
+u2j.png
+emotion :  anger
+u2j2.png
+emotion :  joy
+u2n.jpg
+landmark not found
+
+u3a.png
+landmark not found
+u3a2.png
+emotion :  anger
+u3j.png
+emotion :  joy
+u3n.jpg
+landmark not found
+u3n2.png
+emotion :  neutral
+
+u5a.png
+landmark not found
+u5a2.png
+emotion :  anger
+u5j.png
+landmark not found
+u5n.jpg
+landmark not found
+u5n2.jpg
+emotion :  neutral
+
+u6a.png
+landmark not found
+u6j.png
+emotion :  joy
+u6j2.png
+emotion :  joy
+u6n.jpg
+landmark not found
+u6n2.png
+landmark not found
+
+
+u7a.png
+emotion :  anger
+u7a2.png
+landmark not found
+u7j.png
+landmark not found
+u7n.jpg
+landmark not found
+u7n2.png
+emotion :  neutral
+
+
+Process finished with exit code 0
