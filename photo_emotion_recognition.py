@@ -124,8 +124,9 @@ def emotion_recognition(image_path):
         for r in rotated_coords:
             rc_dict[r[3]] = [r[0], r[1], r[2]]
         # print(rc_dict)
-        mf.flip_line_axis(rc_dict, yaw)
-        landmark2D = mf.change_to_2D(rc_dict)
+        #test = mf.get_side_face(rc_dict,yaw)
+        #mf.show_scatter2(test)
+        landmark2D = mf.get_side_face(rc_dict, yaw)
         mf.show_scatter2(rotated_coords)
         mf.show_scatter2(landmark2D)
         data = mf.vectorize_landmark(landmark2D)

@@ -94,6 +94,7 @@ def change_to_2D(input_landmark):#3차원 랜드마크를 2차원 랜드마크 �
     for idx in index.TO2D_FACE:
         result.append(input_landmark[idx])
     return result
+
 def flip_line_axis(landmark, yaw): #랜드마크 이미지를 턱끝과 이마 중간을 기준 축으로 대칭 이동
     axis_point1 ,axis_point2 = landmark[151],landmark[152]
     dx, dy, dz = np.array(axis_point1) - np.array(axis_point2)
@@ -122,6 +123,15 @@ def flip_line_axis(landmark, yaw): #랜드마크 이미지를 턱끝과 이마 �
                 new_y = landmark[li][1]
                 landmark[li] = [new_x, new_y, landmark[ri][2]]
     return
+def get_side_face(landmark, yaw): #랜드마크 이미지를 턱끝과 이마 중간을 기준 축으로 대칭 이동
+    result =[]
+    if yaw >= 0:
+        for ri in index.RIGHT_FACE_WITH_CENTER:
+            result.append(landmark[ri])
+    else:
+        for li in index.LEFT_FACE_WITH_CENTER:
+            result.append(landmark[li])
+    return result
 def get_symmetry_point(w, b, point): #대칭 이동 함수
     x, y = point[0],point[1]
     new_x = x - 2 * w * (w * x - 1 * y + b) / (w**2 + 1)
@@ -131,7 +141,7 @@ def vectorize_landmark(landmark): #랜드마크를 벡터화 시킴
     data = {}
     xlist = []
     ylist = []
-    for i in range(0, 76):  # Store X and Y coordinates in two lists
+    for i in range(0, 44):  # Store X and Y coordinates in two lists
         xlist.append(landmark[i][0])
         ylist.append(landmark[i][1])
     # record mean values of both X Y coordinates
