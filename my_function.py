@@ -141,7 +141,7 @@ def vectorize_landmark(landmark): #랜드마크를 벡터화 시킴
     data = {}
     xlist = []
     ylist = []
-    for i in range(0, 44):  # Store X and Y coordinates in two lists
+    for i in range(0, 58):  # Store X and Y coordinates in two lists
         xlist.append(landmark[i][0])
         ylist.append(landmark[i][1])
     # record mean values of both X Y coordinates

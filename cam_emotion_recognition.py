@@ -157,8 +157,8 @@ def emotion_recognition():
             cv2.putText(image, 'emotion : ' + emotions[predicted_labels[0]], (20, 450), cv2.FONT_HERSHEY_SIMPLEX, 1.5,
                         (0, 255, 0), 2)
             cv2.imshow('emotion recognition', image)
-            mf.show_scatter(coords)
-            mf.show_scatter(rotated_coords)
+            #mf.show_scatter(coords)
+            #mf.show_scatter(rotated_coords)
             mf.show_scatter2(landmark2D)
             cv2.waitKey()
 

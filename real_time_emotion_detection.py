@@ -8,7 +8,7 @@ from sklearn.svm import SVC
 
 data = {} #Make dictionary for all values
 data['landmarks_vectorized'] = [] #assign a key value to record landmarks
-emotions = ["anger", "joy",  "surprise"] #Emotion list
+emotions = ["anger", "neutral", "joy"] #Emotion list
 
 def get_landmarks(image):
     detections = detector(image, 1)
@@ -64,6 +64,7 @@ while True:
         predicted_labels = pickle_model.predict(prediction_data.reshape(1,-1)) #to get predicted values ...
         print (emotions[predicted_labels[0]]) #prints the predicted emotion   
     else:
-         print("no face detected on this one") 
+         print("no face detected on this one")
+    cv2.waitKey()
     if cv2.waitKey(1) & 0xFF == ord('q'): #Exit program when the user presses 'q'
         break

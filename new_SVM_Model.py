@@ -102,8 +102,7 @@ def make_sets():
                 dict = {}
                 for r in rotated_coords:
                     dict[r[3]] = [r[0], r[1], r[2]]
-                mf.flip_line_axis(dict, yaw)
-                landmark2D = mf.change_to_2D(dict)
+                landmark2D = mf.get_side_face(dict, yaw)
                 #mf.show_scatter2(landmark2D)
                 data = mf.vectorize_landmark(landmark2D)
                 training_data.append(data['landmarks_vectorized'])  # append image array to training data list
@@ -172,6 +171,7 @@ def make_sets():
                     dict[r[3]] = [r[0], r[1], r[2]]
                 #ori_dict = dict
                 landmark2D=mf.get_side_face(dict, yaw)
+                #
                 mf.show_scatter2(landmark2D)
 
                 #landmark2D = mf.change_to_2D(side_face)

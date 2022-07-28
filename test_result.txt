@@ -1,25 +1,38 @@
-
+C:\Users\jjh96\PycharmProjects\pythonProject1\venv\Scripts\python.exe C:/Users/jjh96/PycharmProjects/pythonProject1/test.py
 test my algorithm ------------------
+fa.png
+emotion :  anger
+fj.png
+emotion :  joy
+fj2.png
+emotion :  joy
+fn.png
+emotion :  neutral
+fn2.png
+emotion :  neutral
+
 s1a.png
 emotion :  anger
 s1a2.png
 Landmark not found
+s1a3.png
+emotion :  anger
 s1j.png
 Landmark not found
 s1n.jpg
 Landmark not found
-s1a2.png
-emotion :  anger
+
 s2a.png
-Landmark not found
+emotion :  anger
 s2j.png
 emotion :  anger
 s2j2.png
-emotion :  neutral
+emotion :  anger
 s2n.jpg
 Landmark not found
 s2n2.png
 emotion :  neutral
+
 s3a.png
 emotion :  neutral
 s3j.png
@@ -30,6 +43,9 @@ s3j3.png
 emotion :  joy
 s3n.jpg
 Landmark not found
+
+s5a.png
+emotion :  neutral
 s5j.png
 emotion :  joy
 s5j2.png
@@ -38,14 +54,13 @@ s5n.jpg
 Landmark not found
 s5n2.png
 emotion :  neutral
-s5a.png
-emotion :  neutral
+
 s6a.png
 emotion :  anger
 s6a2.png
 emotion :  neutral
 s6a3.png
-emotion :  anger
+emotion :  neutral
 s6j.png
 emotion :  joy
 s6n.jpg
@@ -57,9 +72,10 @@ emotion :  joy
 s7j2.png
 emotion :  joy
 s7j3.png
-emotion :  anger
+emotion :  neutral
 s7n.jpg
 Landmark not found
+
 u1a.png
 emotion :  anger
 u1j.png
@@ -94,7 +110,7 @@ u3n2.png
 emotion :  neutral
 
 u5a.png
-emotion :  anger
+emotion :  neutral
 u5a2.png
 emotion :  anger
 u5j.png
@@ -102,7 +118,8 @@ emotion :  joy
 u5n.jpg
 Landmark not found
 u5n2.jpg
-emotion :  neutral
+emotion :  anger
+
 u6a.png
 Landmark not found
 u6j.png
@@ -112,13 +129,12 @@ emotion :  joy
 u6n.jpg
 Landmark not found
 u6n2.png
-emotion :  anger
-
+emotion :  neutral
 
 u7a.png
 emotion :  joy
 u7a2.png
-emotion :  anger
+emotion :  neutral
 u7j.png
 emotion :  joy
 u7n.jpg
@@ -126,18 +142,29 @@ Landmark not found
 u7n2.png
 emotion :  neutral
 
-total time :  0.4281809329986572
+total time :  0.5036132335662842
 test existed algorithm ------------------
+fa.png
+emotion :  anger
+fj.png
+emotion :  joy
+fj2.png
+emotion :  joy
+fn.png
+emotion :  neutral
+fn2.png
+emotion :  neutral
 s1a.png
 landmark not found
 s1a2.png
-landmark not found
-s1j.png
-landmark not found
-s1n.jpg
 landmark not found
 s1a3.png
 landmark not found
+s1j.png
+landmark not found
+s1n.jpg
+landmark not found
+
 s2a.png
 emotion :  anger
 s2j.png
@@ -160,6 +187,8 @@ emotion :  joy
 s3n.jpg
 landmark not found
 
+s5a.png
+landmark not found
 s5j.png
 emotion :  joy
 s5j2.png
@@ -168,8 +197,6 @@ s5n.jpg
 emotion :  neutral
 s5n2.png
 emotion :  neutral
-s5s.png
-landmark not found
 
 s6a.png
 landmark not found
@@ -248,7 +275,6 @@ landmark not found
 u6n2.png
 landmark not found
 
-
 u7a.png
 emotion :  anger
 u7a2.png
@@ -259,6 +285,5 @@ u7n.jpg
 landmark not found
 u7n2.png
 emotion :  neutral
-
 
 Process finished with exit code 0
